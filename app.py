@@ -8,8 +8,8 @@ import base64
 import hmac
 
 app = Flask(__name__)
-db_name = "project2.db"
-sql_file = "project2.sql"
+db_name = "snippets.db"
+sql_file = "snippets.sql"
 db_flag = False
 
 def jwt_generator(username):
